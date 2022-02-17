@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "c58000b2-f2a9-425f-9781-ba83af6ace36",
+		"name": "Test Flsk",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://192.168.1.170:5000/api/v1.0/task/create/12345&Matias&Vargas&matias.vargas@gmail.com&1997-04-10",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.170:5000/api/v1.0/task/create/12345&Matias&Vargas&matias.vargas5@gmail.com&1994-04-10",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"170"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1.0",
+						"task",
+						"create",
+						"12345&Matias&Vargas&matias.vargas5@gmail.com&1994-04-10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.170:5000/api/v1.0/task/delete/3f58c1f7-be7e-4418-9be2-ad0b6a4b458c",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"170"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1.0",
+						"task",
+						"delete",
+						"3f58c1f7-be7e-4418-9be2-ad0b6a4b458c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.170:5000/api/v1.0/task/delete/3f58c1f7-be7e-4418-9be2-ad0b6a4b458c",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"170"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1.0",
+						"task",
+						"delete",
+						"3f58c1f7-be7e-4418-9be2-ad0b6a4b458c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.170:5000/api/v1.0/task/update/c3337467-cf35-45bf-bc17-95474bbb0b94&Matias&Vargas&matias.vargas2@gmail.com&1997-04-10",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"170"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1.0",
+						"task",
+						"update",
+						"c3337467-cf35-45bf-bc17-95474bbb0b94&Matias&Vargas&matias.vargas2@gmail.com&1997-04-10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.170:5000/api/v1.0/task/create/12345&Matias&Vargas&matias.vargas5@gmail.com&1994-04-10",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"170"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1.0",
+						"task",
+						"create",
+						"12345&Matias&Vargas&matias.vargas5@gmail.com&1994-04-10"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
