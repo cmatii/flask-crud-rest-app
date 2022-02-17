@@ -40,3 +40,12 @@ If your using Anaconda:
     python app.py
 
 ```
+
+## Testing on POSTMAN
+
+There has been added a config file calle Test *
+
+> Flsk.postman_collection.json
+
+* It can be imported into a Postman app, to make the testing process easier.
+* Look for it on the Test folder.
