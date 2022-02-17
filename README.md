@@ -11,7 +11,7 @@ This project was created using Anaconda as package manager, so it is highly reco
 ## Create a virtual environment inside the application 
 
 ```python
-    virtualenv -p /usr/bin/python3.4 venv    
+    virtualenv -p /usr/bin/python3.9.x venv    
 
     source venv/bin/activate
 ```
